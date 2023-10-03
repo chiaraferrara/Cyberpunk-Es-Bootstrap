@@ -1,0 +1,149 @@
+<div class="image-container">
+  <img src="https://w.wallhaven.cc/full/8o/wallhaven-8o62pj.png" alt="..." />
+</div>
+<div class="container-sm">
+  <div *ngIf="isPrevious" class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card shadow p-3 mb-5 bg-body-tertiary rounded">
+        <img
+          src="https://i.ibb.co/H4vjvBH/image.png"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Cyberpunk 2020</h5>
+          <p class="card-text">
+            Gioco di ruolo da tavolo ambientato in un mondo distopico cyberpunk.
+            È stato creato da Mike Pondsmith ed è stato pubblicato per la prima
+            volta nel 1988 dalla casa editrice R. Talsorian Games. Il gioco è
+            ambientato in un futuro alternativo, nel 2020, dove la tecnologia
+            avanzata si combina con la criminalità, la corruzione e il caos
+            sociale.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow p-3 mb-5 bg-body-tertiary rounded">
+        <img
+          src="https://static.vecteezy.com/system/resources/previews/022/100/989/original/spotify-logo-transparent-free-png.png"
+          class="card-img-top"
+          alt="..."
+          style="width: 50px; height: 50px"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Spotify</h5>
+          <p class="card-text">
+            <iframe
+              style="border-radius: 12px"
+              src="https://open.spotify.com/embed/track/1hT3eaGzrcFriQtgGdvsZv?utm_source=generator"
+              width="100%"
+              height="352"
+              frameBorder="0"
+              allowfullscreen=""
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              loading="lazy"
+            ></iframe>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow p-3 mb-5 bg-body-tertiary rounded">
+        <img
+          src="https://i.ibb.co/H2zCqPN/image.png"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Cyberpunk 2077</h5>
+          <p class="card-text">
+            "Cyberpunk 2020" ha avuto un impatto significativo sulla cultura
+            popolare, contribuendo a definire il genere cyberpunk nel mondo dei
+            giochi di ruolo e ispirando altre opere come il videogioco
+            "Cyberpunk 2077.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div *ngIf="!isPrevious" class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card shadow p-3 mb-5 bg-body-tertiary rounded">
+        <img
+          src="https://i.ibb.co/wJ04MYD/image.png"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">C'è pure Keanu</h5>
+          <p class="card-text">
+            Keanu Reeves appare nell'introduzione del videogioco "Cyberpunk
+            2077". Lui interpreta il personaggio di Johnny Silverhand, un
+            cantante che diventa uno spettro digitale nel mondo futuristico e
+            distopico del gioco. L'apparizione di Keanu nel gioco è stata molto
+            attesa e ben accolta dai fan, e interpreta un ruolo significativo
+            nell'intera trama del gioco. Nell'introduzione, i giocatori hanno il
+            loro primo sguardo su Johnny Silverhand durante un momento cruciale
+            nella narrazione del gioco.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card shadow p-3 mb-5 bg-body-tertiary rounded">
+        <img
+          src="https://static.vecteezy.com/system/resources/previews/022/100/989/original/spotify-logo-transparent-free-png.png"
+          class="card-img-top"
+          alt="..."
+          style="width: 50px; height: 50px"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Spotify</h5>
+          <p class="card-text">
+            <iframe
+              style="border-radius: 12px"
+              src="https://open.spotify.com/embed/track/7mykoq6R3BArsSpNDjFQTm?utm_source=generator"
+              width="100%"
+              height="352"
+              frameBorder="0"
+              allowfullscreen=""
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              loading="lazy"
+            ></iframe>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow p-3 mb-5 bg-body-tertiary rounded">
+        <img
+          src="https://i.ibb.co/VtsQ9LN/image.png"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Cyberpunk 2077: Phantom Liberty</h5>
+          <p class="card-text">
+            Questa versione porta importanti modifiche ai meccanismi di gioco e
+            alle caratteristiche principali, tra cui il sistema di polizia e gli
+            alberi delle abilità. Tutti i giocatori possono accedervi
+            gratuitamente. Inoltre, il 26 settembre, i possessori
+            dell'espansione Cyberpunk 2077: Phantom Liberty avranno nuovi
+            contenuti.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-btn">
+    <button (click)="isPrevious = true" class="btn btn-primary" type="button">
+      &laquo;
+    </button>
+    <button (click)="isPrevious = false" class="btn btn-primary" type="button">
+      &raquo;
+    </button>
+  </div>
+</div>

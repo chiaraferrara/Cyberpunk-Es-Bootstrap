@@ -1,0 +1,25 @@
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+}
+
+.footer-column {
+    flex: 1;
+    text-align: center;
+}
+
+
+.footer-icon {
+    cursor: pointer;
+}
+
+.footer-made-for {
+    text-align: center;
+    background-color: #ffff00;
+    color: #000000;
+    padding: 10px 0;
+}

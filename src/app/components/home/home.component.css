@@ -1,0 +1,32 @@
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 80%;
+    padding-bottom: 30%; 
+    overflow: hidden;
+  }
+  .image-container img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+  }
+
+  .container-sm{
+    margin-top:4%;
+  }
+
+  .card-body{
+    margin:0;
+  }
+
+
+  .container-btn{
+    text-align: center;
+  }
+
+  .container-btn button{
+    background-color: black;
+    border: 1px solid yellow;
+    margin-block: 5%;
+  }
